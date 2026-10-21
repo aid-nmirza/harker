@@ -3,7 +3,7 @@ body{
     width: 60%;
     margin: auto;
     padding-top: 5em;
-    background-image: url("gifs/bob.gif"), url(gifs/coolness09.gif), url(gifs/cassette);
+    background-image: url("gifs/bob.gif"), url(gifs/coolness09.gif), url(gifs/cassette.gif);
     background-repeat: no-repeat;
     background-position: right +1em top, right +1em top +3em, right +1em bottom;
     background-attachment: fixed;

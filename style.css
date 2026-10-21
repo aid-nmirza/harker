@@ -1,0 +1,119 @@
+
+body{
+    width: 60%;
+    margin: auto;
+    padding-top: 5em;
+    background-image: url("gifs/bob.gif"), url(gifs/coolness09.gif), url(gifs/cassette);
+    background-repeat: no-repeat;
+    background-position: right +1em top, right +1em top +3em, right +1em bottom;
+    background-attachment: fixed;
+}
+
+header{
+    border: 2px;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+header h1{
+    letter-spacing: 5px;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+nav {
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+
+nav a {
+    color: white;
+    background: black;
+    text-decoration: none;
+    
+}
+
+nav ul{
+    list-style-type: none;
+    
+}
+nav ul li{
+    float:left;
+    padding-right: 20px;
+}
+
+main h1{
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 2px;
+    color: white;
+    background: black;
+}
+
+main ul{
+    list-style-type: none;
+}
+
+main ul li{
+    padding: 10px;
+}
+
+article{
+    border: 2px;
+    border-style: dotted;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+article h3{
+    text-transform: lowercase;
+    font-style: italic;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+
+article a{
+    text-transform: lowercase;
+    font-style: italic;
+    letter-spacing: 2px;
+    color: white;
+    background: black;
+    font-size: 10pt;
+    padding-left: 1px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  cursor: pointer;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: max-content;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -1em;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+
+.align-right{
+    text-align: right;
+}
